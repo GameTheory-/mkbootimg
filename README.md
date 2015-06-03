@@ -1,32 +1,31 @@
 # Description
 ```
-This is for compiling mkbootimg, unpackbootimg, and mkbootfs from the CyanogenMod repo.
-```
+mk compiler v2.0
 
-# How To
-```
-Get this source:
-	$ git clone https://github.com/GameTheory-/mkbootimg.git
-
-Compile:
-	$ ./build
-
-Or alternatively you can just double click on the "build" file to compile.
-The compiled files will appear in the root directory.
-
-Help:
-	$ ./build -h
+mk compiler is for compiling mkbootimg, unpackbootimg, and mkbootfs
+from the CyanogenMod repo. These tools can be used for unpacking
+and repacking the android boot and recovery images.
 
 Note:
-	Compiler tested on ubuntu 14.04 with gcc 5.1
+	mk compiler has been tested on ubuntu linux
+	should work on most debian based linux distros
 ```
 
-# Updating Source
+# Usage
 ```
-From the root directory:
-	$ git pull
+1. Open terminal to the root directory where the "mk" file is located.
+2. Now run any of the following commands:
+
+Help:
+	$ ./mk h
+
+Compile:
+	$ ./mk c
+
+License:
+	$ ./mk l
 ```
 
 # Credits
-- Compiler Author: [GameTheory](https://github.com/GameTheory-)
+- mk Compiler Author: [GameTheory](https://github.com/GameTheory-)
 - CyanogenMod for their [android_system_core](https://github.com/CyanogenMod/android_system_core) repo
